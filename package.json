@@ -4,7 +4,7 @@
   "description": "evenly allocate an engineer to support roles",
   "main": "server.js",
   "scripts": {
-    "start": "node start.js",
+    "start": "npm run start-server",
     "start-server": "NODE_ENV=test nodemon start.js",
     "start-client": "NODE_PATH=src/ react-scripts start",
     "dev-start": "concurrently \"npm run start-server\" \"npm run start-client\" ",
