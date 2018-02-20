@@ -7,7 +7,7 @@
     "start": "npm run start-server",
     "start-server": "NODE_ENV=test nodemon start.js",
     "start-client": "NODE_PATH=src/ react-scripts start",
-    "dev-start": "concurrently \"npm run start-server\" \"npm run start-client\" ",
+  
     "test-backend": "NODE_ENV=test node test/runner.js | tap-spec",
     "test-client": "react-scripts test --env=jsdom",
     "test": "CI=true npm run test-client && npm run test-backend",
