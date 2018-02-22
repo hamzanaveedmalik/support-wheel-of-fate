@@ -9,9 +9,9 @@ const getShifts = require('./database/queries/getShifts.js');
 const updateEngineers = require('./database/queries/updateEngineers.js');
 const updateShifts = require('./database/queries/updateShifts.js');
 
-if (process.env.NODE_ENV === 'test') {
-  require('env2')('config-test.env');
-}
+// if (process.env.NODE_ENV === 'test') {
+//   require('env2')('config-test.env');
+// }
 
 app.use(bodyParser.json());
 
